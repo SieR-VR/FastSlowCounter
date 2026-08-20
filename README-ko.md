@@ -20,7 +20,7 @@ Beat Saber의 [Counters+](https://github.com/NuggoDEV/CountersPlus) 커스텀 �
 
 ## 요구 사항
 
-- Beat Saber 1.43 (Unity 2022.3.33)
+- Beat Saber 1.40.8
 - BSIPA 4.2+
 - [Counters+](https://github.com/NuggoDEV/CountersPlus) 2.3+
 - BeatSaberMarkupLanguage 1.12+
