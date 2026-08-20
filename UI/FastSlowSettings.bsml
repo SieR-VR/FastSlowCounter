@@ -1,0 +1,7 @@
+<vertical xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd' spacing='1' horizontal-fit='PreferredSize' vertical-fit='PreferredSize'>
+  <dropdown-list-setting text='Timing Mode' apply-on-change='true' value='TimingMode' options='TimingModes' formatter='TimingModeFormat' hover-hint='Exact keeps the bar centered on perfect timing. Moving Average recenters the bar on your recent average timing.'/>
+  <color-setting text='Center Color' apply-on-change='true' value='CenterColor' hover-hint='Color used for the center marker and on-time points.'/>
+  <color-setting text='Edge Color' apply-on-change='true' value='EdgeColor' hover-hint='Color used for the edge markers and miss-timed points.'/>
+  <list-setting text='Point Count' apply-on-change='true' value='PointCount' options='PointCounts' hover-hint='Maximum number of recent points shown on the bar at once.'/>
+  <dropdown-list-setting text='Fade Strength' apply-on-change='true' value='FadeStrength' options='FadeStrengths' formatter='FadeStrengthFormat' hover-hint='How strongly older points fade each time a new point is added. 0% never fades.'/>
+</vertical>

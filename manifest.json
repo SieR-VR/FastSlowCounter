@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "FastSlowCounter",
+  "name": "FastSlowCounter",
+  "author": "SieR",
+  "version": "0.1.0",
+  "description": "A Counters+ custom counter that visualizes whether your note hit timing was fast or slow.",
+  "gameVersion": "1.43.0",
+  "dependsOn": {
+    "BSIPA": "^4.2.0",
+    "BeatSaberMarkupLanguage": "^1.12.0",
+    "Counters+": "^2.3.0",
+    "SiraUtil": "^3.1.0"
+  },
+  "features": {
+    "CountersPlus.CustomCounter": {
+      "Name": "FastSlow Counter",
+      "CounterLocation": "FastSlowCounter.FastSlowCounterController",
+      "MultiplayerReady": false,
+      "ConfigDefaults": {
+        "Enabled": true,
+        "Position": "AboveHighway",
+        "Distance": 0
+      },
+      "BSML": {
+        "Resource": "FastSlowCounter.UI.FastSlowSettings.bsml",
+        "Host": "FastSlowCounter.FastSlowSettingsHost"
+      }
+    }
+  }
+}

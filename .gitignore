@@ -1,0 +1,16 @@
+# User-specific files (contains your local Beat Saber install path)
+*.csproj.user
+*.user
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
