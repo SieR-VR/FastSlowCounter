@@ -20,7 +20,7 @@ For misses, from the moment a note spawns the counter records (each frame) the t
 
 ## Requirements
 
-- Beat Saber 1.43 (Unity 2022.3.33)
+- Beat Saber 1.40.8
 - BSIPA 4.2+
 - [Counters+](https://github.com/NuggoDEV/CountersPlus) 2.3+
 - BeatSaberMarkupLanguage 1.12+
